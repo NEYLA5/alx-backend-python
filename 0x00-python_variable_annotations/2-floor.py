@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-    Handle of string with annotations
+    Truncate float to integer
 """
 
 
-def concat(str1: str, str2: str) -> str:
+def floor(n: float) -> int:
     """
         Args:
-            str1: The first string parameter
-            str1: The second string parameter
+            n: float number
 
         Return:
-            Concatenated string
+            Float number truncated to floor
     """
 
-    return (str1 + str2)
+    return int(n)
